@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>카카오뱅크</title>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="script/jquery-1.12.3.js"></script>
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+
+        <div id="kakaoWrap">
+            <div id="headerArea">
+                <header id="header" class="flex-container">
+                    <div id="headerLogo">
+                        <a id="logo_bk" href="/index.html">
+                            <img src="images/Home/logo_black.png" alt="헤더이미지">
+                        
+                        </a>
+                        <a id="logo_wt" href="/index.html">
+                            <img src="images/Home/logo_white.png" alt="헤더이미지">
+                        </a>
+                    </div>
+                    <!-- div#headerLogo -->
+
+                    <nav id="gnb">
+                        <ul id="mainMenu" class="flex-container">
+                            <li class="mainLi" id="mainFade">
+                                <a href="카카오뱅크_Home 복사/index.html">은행소개</a>
+                                <ul class="subMenu" id="BankMenu">
+                                    <li class="subLi">
+                                        <a href="카카오뱅크_Home 복사/index.html">카카오뱅크</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="카카오뱅크_Home 복사/index.html">브랜드</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">주주사 소개</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">오시는 길</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">제휴문의</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">윤리경영</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">윤리강령</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">임직원행동기준</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">인재채용</a>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">새소식</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">공지사항</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">보도자료</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">입찰공고</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mainLi" id="mainFade">
+                                <a href="#">IR투자정보</a>
+                                <ul class="subMenu">
+                                    <li class="subLi">
+                                        <a href="#">공시정보</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">경영공시</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">바젤공시</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">기타공시</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">재무정보</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">재무제표</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">감사보고서</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">영업보고서</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">IR자료실</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">실적발표</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">IR일정</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">IR행사</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">IR미팅예약</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">주주총회</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">공고</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="mainLi" id="mainFade">
+                                <a href="#">상품안내</a>
+                                <ul class="subMenu">
+                                    <li class="subLi">
+                                        <a href="#">예적금</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">입출금통장</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">모임통장</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">세이프박스</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">저금통</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">정기예금</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">대출</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">비상금대출</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">마이너스 통장</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">신용대출</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">개인사업자 대출</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">전월세보증금 대출</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">서비스</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">내 신용정보</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">해외송금 보내기</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">해외송금 받기</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">프렌즈 체크카드</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">제휴서비스</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">증권사 주식계좌</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">제휴 신용카드</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">mini</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">카카오뱅크 mini</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">min카드</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mainLi" id="mainFade">
+                                <a href="#">고객센터</a>
+                                <ul class="subMenu">
+                                    <li class="subLi">
+                                        <a href="#">이용안내</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">자주 묻는 질문</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">이용시간 안내</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">ATM 이용안내</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">금리안내</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">수수료안내</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">상담하기</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">고객의 소리</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">1:1 문의</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">소비자보호</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">소비자보호체계</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">소비자보호 우수사례</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">전자민원</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">소비자보호공시</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">금융정보</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">증명서</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">나의 증명서 발급내역</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">증명서 진위 확인</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="subLi">
+                                        <a href="#">약관<span>.</span>서식</a>
+                                        <ul class="subMenu2">
+                                            <li>
+                                                <a href="#">약관</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">서식</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">상품설명서</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">상품공시</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mainLi">
+                                <a href="#">이벤트</a>
+                            </li>
+                            <li class="submit">
+                                <a href="#">서류제출하기</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </header>
+            </div>
+            <!-- div#headerArea -->
+
+            <div id="subMenuBG"></div>
+
+            <div id="wall"></div>
+            <div id="wrap">
+                <main id="main">
+                    <div id="kakaoContents">
+                        <div id="kakaoFrame">
+                            <div>
+                                <div id="MainWrap">
+                                    <div class="kakaoContent_01">
+
+                                        <!-- 메인 TOP -->
+                                        <div class="Content_01">
+                                            <div class="kakaoText_01">
+                                                <h3>
+                                                    이미 모두의 은행
+                                                    <br>
+                                                    지금은 카카오뱅크
+                                                </h3>
+                                                <p>
+                                                    한 사람, 한 사람을 위해 시작한 은행이
+                                                    <br>
+                                                    더 많은 사람들이 찾는 모두의 은행이 되었습니다.
+                                                </p>
+                                                <a href="#" class="brand">
+                                                    브랜드 캠페인 보러가기
+                                                </a>
+                                                <!-- <strong>스토어 바로가기</strong> -->
+                                                <ul class="app_Link">
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>Goolgle Play</span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span>App Store</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content_line01"></div>
+                                    <!-- div.content_line01 -->
+
+                                    <div class="kakaoContent_02">
+                                        <div class="kakaoimg_02">
+                                            <img src="images/Home/main-withdrawal.png" alt="">
+                                        </div>
+                                        <div class="kakaoTest_02">
+                                            <h3>
+                                                모바일로 더 손쉬운
+                                                <br>
+                                                계좌개설, 간편한 이체
+                                            </h3>
+                                            <p>
+                                                인증서, OTP 없이 계좌 개설이 간편합니다.
+                                                <br>
+                                                여러 건의 이체도 몇 번의 터치로 손쉽게 보낼수 있습니다.
+                                            </p>
+                                        </div>
+                                        <div class="kakaoSub_02">
+                                            <a href="#">카카오뱅크 입출금통장<img src="images/Home/home_arr.png" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="content_line02"></div>
+                                    <!-- div.content_line02 -->
+
+                                    <div class="kakaoContent_03">
+                                        <div class="kakaoTest_03">
+                                            <h3>
+                                                우대조건 없이
+                                                <br>
+                                                합리적인 예금과 적금
+                                            </h3>
+                                            <p>
+                                                기대했던 금리와 다르게 복잡한 우대조건에 실망 한적이 있었나요?
+                                                <br>
+                                                카카오뱅크의 예금, 적금은 숨겨진 우대조건 없이 누구에게나 편리하고 합리적입니다.
+                                            </p>
+                                            <img src="images/Home/main-savings-money.png" alt="#">
+                                        </div>
+                                        <div class="kakaoSub_03">
+                                            <a href="">정기예금<img src="images/Home/home_arr.png" alt=""></a>
+                                            <a href="">자유적금<img src="images/Home/home_arr.png" alt=""></a>
+                                        </div>
+                                        <div class="kakaoimg_03">
+                                            <img src="images/Home/main-savings.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="content_line03"></div>
+                                    <!-- div.content_line03 -->
+
+                                    <div class="kakaoContent_04">
+                                        <div class="kakaoimg_04">
+                                            <img src="images/Home/main-moim.png" alt="#">
+                                        </div>
+                                        <div class="kakaoTest_04">
+                                            <h3>
+                                                함께 쓰고 같이 보는
+                                                <br>
+                                                모임통장
+                                            </h3>
+                                            <p>
+                                                카카오톡 친구를 바로 모임통장으로 초대하고
+                                                <br>
+                                                친구들과 함께 잔액과 입출금 현황을 확인할 수 있습니다.
+                                                <br>
+                                                재미있는 메시지 카드로 회비 입금요청도 해보세요
+                                            </p>
+                                        </div>
+                                        <div class="kakaoSub_04">
+                                            <a href="#">
+                                                모임통장
+                                                <img src="images/Home/home_arr.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="content_line04"></div>
+                                    <!-- div.content_line04 -->
+
+                                    <div class="kakaoContent_05">
+                                        <div class="kakaoimg_05">
+                                            <img src="images/Home/main-26weeks.png" alt="">
+                                        </div>
+                                        <div class="kakaoTest_05">
+                                            <h3>
+                                                함께 도전해서
+                                                <br>
+                                                재미있는 26주적금
+                                            </h3>
+                                            <p>
+                                                26주동안 변화하는 재미에 빠져있는 사이
+                                                <br>
+                                                어느덧 만기 달성 겸험을 맛보게 됩니다.
+                                            </p>
+                                        </div>
+                                        <div class="kakaoSub_05">
+                                            <a href="#">
+                                                26주적금
+                                                <img src="images/Home/home_arr.png" alt="">
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="content_line05"></div>
+                                    <!-- div.content_line05 -->
+
+                                    <div class="kakaoContent_06">
+                                        <div class="kakaoimg_06">
+                                            <img src="images/Home/main-foreignRemittance.png" alt="">
+                                        </div>
+                                        <div class="kakaoTest_06">
+                                            <h3>
+                                                해외계좌송금과
+                                                <br>
+                                                WU빠른해외송금을
+                                                <br>
+                                                더 쉽고, 저렴하게
+                                            </h3>
+                                            <p>
+                                                해외계좌송금이 가능한 22개국을 포함하여
+                                                <br>
+                                                전세계 200여개국으로
+                                                <br>
+                                                WU빠른해외송금이 가능합니다.
+                                            </p>
+                                        </div>
+                                        <div class="kakaoSub_06">
+                                            <a href="#">
+                                                해외송금
+                                                <img src="images/Home/home_arr.png" alt="">
+                                                </a>
+                                        </div>
+                                    </div>
+                                    <div class="content_line06"></div>
+                                    <!-- div.content_line06 -->
+
+                                    <div class="kakaoContent_07">
+                                        <div class="kakaoimg_07"></div>
+                                        <div class="kakaoTest_07"></div>
+                                        <div class="kakaoSub_07"></div>
+                                    </div>
+                                    <div class="content_line07"></div>
+                                    <!-- div.content_line07 -->
+
+                                </main>
+                                <footer id="footer">
+                                    <div id="footerFrame">
+                                        <div class="footerTop">
+                                            <nav id="footerLnb">
+                                                <ul id="footerLnbMainMenu" class="flex-container">
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">모바일배킹 서비스 이용약관</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">전자금융거래 기본약관</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">위치기반 서비스 이용약관</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">개인정보처리방침</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">전자민원접수</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">보호금융상품등록부</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">상품공시실</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">경영공시</a>
+                                                    </li>
+                                                    <li class="footerLnbMainLi"></li>
+                                                    <li class="footerLnbMainLi">
+                                                        <a href="#">공지사항</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <!-- div.footerTop -->
+
+                                        <div class="footerCopy">
+                                            <div id="copyArea" class="flex-container">
+                                                <h4>대표전화 1599-3333&nbsp;</h4>
+                                                <span>&nbsp;(해외 +82-2-6420-3333)</span>
+                                                <p>Copyright &copy; KakaoBank corp. All right reserved.</p>
+                                            </div>
+                                        </div>
+                                        <!-- div.footerCopy -->
+
+                                        <div id="footerArea" class="flex-container">
+
+                                            <div id="footerLeft" class="flex-container">
+                                                <a href="#">
+                                                    <img src="images/Home/webaccessibility.png" alt="푸터이미지">
+                                                </a>
+                                                <a href="#">
+                                                    <p>웹 접근성 품질인증</p>
+                                                </a>
+                                            </div>
+
+                                            <div id="footerRight" class="flex-container">
+                                                <a href="#"><img src="images/Home/페이스북.jpg" alt="페이스북"></a>
+                                                <a href="#"><img src="images/Home/블로그.jpg" alt="블로그"></a>
+                                                <a href="#"><img src="images/Home/네이버.jpg" alt="네이버"></a>
+                                                <a href="#"><img src="images/Home/유튜브.jpg" alt="유튜브"></a>
+                                            </div>
+
+                                        </div>
+                                        <!-- div#footerArea -->
+                                    </div>
+                                    <!-- div#footerFrame -->
+                                </footer>
+                            </div>
+                            <!-- div#wrap -->
+                        </div>
+                    </body>
+                </html>

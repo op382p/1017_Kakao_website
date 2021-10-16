@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+
+/* @media (max-width: 1280px) {
+  body { width: 100%; margin: auto;}
+  #wrap { width: 100%; margin: auto;}
+  
+}
+@media (max-width: 1024px) {
+  body { width: 100%; margin: auto;}
+  #wrap { width: 100%; margin: auto;}
+}
+@media (max-width: 960px) {
+  body { width: 100%; margin: auto;}
+  #wrap { width: 100%; margin: auto;}
+}
+@media (max-width: 768px) {
+  body { width: 100%; margin: auto;}
+  #wrap { width: 100%; margin: auto;}
+}
+@media (max-width: 576px) {
+  body { width: 100%; margin: auto;}
+  #wrap { width: 100%; margin: auto;}
+}
+#wrap {
+  width: 1200px;
+}
+header {
+  width: 100%;
+  height: 150px;
+}
+aside {width: 30%; height: 700px; background-color: #f00;} 
+footer {width: 100%; height: 150px; background-color: #08f;}
+ */
+
+/* Reset */
+* {
+  color: #222; /* 기본텍스트 색상 */
+  /* font-family: "Nanum Gothic", sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, strong, address, caption, cite, code, dfn, em, var, th {
+  font-style: normal;
+  /* font-weight: normal; */
+}
+.screen_out {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+li {
+  list-style: none;
+}
+.fixinner{ 
+  position:fixed; 
+}
+html {
+  min-height: 100%;
+}
+body {
+  background-color: #fff; /* 배경색 */
+  min-height: 100%;
+}
+
+a:link {
+  /* 슈도(Pseudo, 의사, 짝퉁) 클래스 선택자*/
+  color: #333;
+}
+a:visited {
+  color: #333;
+}
+a:hover {
+  color: #444;
+}
+a:active {
+  color: #444;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+/* Reset */
+
+/* 가이드 라인 (Guide Line, 안내선) */
+/* 
+div#wrap {
+  border: 1px solid #f00;
+} */
+
+/* 
+div#headerFrame {
+  border: 1px solid #000;
+} */
+
+/* 
+header#header {
+  border: 1px solid #f80;
+} */
+
+/*main#main {
+    border: 1px solid #0f0;
+}*/
+/* 
+div#footerFrame {
+  border: 1px solid #000;
+} */
+
+/* 
+footer#footer {
+  border: 1px solid #f80;
+} */
+
+/* 가이드 라인 (Guide Line, 안내선) */
