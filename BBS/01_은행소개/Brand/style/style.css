@@ -1,0 +1,554 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+/* .img_Box {
+    overflow: hidden;
+    background: url(../images/Home/img_kabang_210128.png);
+} */
+body {
+    overflow-y: scroll;
+    background-color: #fafafa;
+    display: block;
+    
+}
+#kakaoWrap {
+    overflow-y: scroll;
+    min-width: 1120px;
+    height: auto;
+}
+/* 기본설정 완료 */
+div#headerArea {
+        min-width: 100%;
+    /* height: 140px; */
+    text-align: center;
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #eee;
+    border-bottom: 1px solid#aaa;
+}
+/* header#header 시작 */
+div#headerArea {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
+header#header {
+    width: 1080px;
+    height: 80px;
+    margin: 0 auto;
+    margin: 0 auto;
+    line-height: 80px;
+    justify-content: space-between;
+    position: relative;
+
+}
+header#header img {
+    width: 115px;
+}
+#header a#logo_wt {
+    display: none;
+}
+/* GNB메뉴 시작 */
+
+nav#gnb {
+    
+    margin: 0 12px;
+}
+
+nav#gnb ul#mainMenu {
+    height: 80px;
+}
+header#header nav#gnb li.mainLi {
+    text-align: center;
+    height: 80px;
+    float: 1;
+    position: relative;
+    width: 100px;
+}
+  header#header nav#gnb li.mainLi > a {
+    height: 80px;
+    color: #000;
+    font-size: 15px;
+}
+header#header nav#gnb li.mainLi:nth-child(5) {
+    margin-right: 35px;
+}
+li.submit  {
+    font-size: 15px;
+    padding: 0 10px;
+}
+li.submit a{
+    padding: 12px 16px;
+    border-radius: 30px;
+    background-color: #fede22;
+}
+/* 서브메뉴 설정 */
+#gnb ul.subMenu {
+    width: 8000px;
+    text-align: center;
+    position: absolute;
+    z-index: 95;
+    display: flex;
+    padding:60px 2000px 0;
+    height: 340px;
+}
+#gnb ul.subMenu li.subLi>a {
+    font-size: 20px;
+    font-weight: 500;
+}
+  #gnb ul#mainMenu :nth-child(1) ul.subMenu   {
+    right: -5520px;
+}
+#gnb ul#mainMenu :nth-child(1) ul.subMenu li.subLi {
+    margin: 0 53px;
+}
+#gnb ul#mainMenu :nth-child(2) ul.subMenu   {
+    right: -5420px;
+}
+#gnb ul#mainMenu :nth-child(3) ul.subMenu   {
+    right: -5320px;
+}
+#gnb ul#mainMenu :nth-child(4) ul.subMenu   {
+    right: -5220px;
+}
+  #gnb li.subLi  {
+      width: 150px;
+      margin: 0 30px;
+      line-height: 40px;
+      font-size: 14px;
+      display: inline-block;
+  }
+  #gnb li.subLi a {
+    color: #000;
+    line-height: 30px;
+    height: 25px;
+  }
+/* 서브 Bank 완료 */
+
+/* 서브메뉴 완료 */
+/* hover 설정 */
+ul#mainMenu>li.mainLi a:hover{
+    border-bottom: 1px solid#000;
+}
+ul#mainMenu>li.mainLi:hover{
+    border-bottom: 2px solid#000;
+}
+/* hover 설정 완료 */
+/* GNB메뉴 완료 */
+/* header#header 완료 */
+/* div#subMenuBG 시작 */
+#subMenuBG {
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    display: none;
+    z-index: 98;
+}
+/* div#subMenuBG 완료 */
+/* footer영역 시작 */
+footer#footer {
+    min-width: 100%;
+    text-align: center;
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #eee;
+}
+#footerFrame {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* div#footerTop 시작 */
+div.footerTop {
+    font-size: 10.7px;
+
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 37px 0 12px;
+    text-align: center;
+    margin: 0 auto;
+}
+#footer nav#footerLnb li:nth-child(2n) {
+    width: 1px;
+    height: 11px;
+    background-color: #ddd;
+    margin: 0 17px;
+    transform: translateY(1px);
+}
+#footer nav#footerLnb li:nth-child(5),
+#footer nav#footerLnb li:nth-child(7),
+#footer nav#footerLnb li:nth-child(9) {
+    font-weight: bold;
+}
+/* div#footerTop 완료 */
+
+footer#footer div#copyArea {
+    font-size: 10px;
+    padding: 1px 0;
+}
+footer#footer div#copyArea span {
+    color: #888888;
+    margin-right: 28px;
+}
+footer#footer div#copyArea p {
+    color: #888888;
+    font-size: 10px;
+}
+/* div#footerArea 시작 */
+div#footerArea {
+    justify-content: space-between;
+    height: 80px;
+    line-height: 80px;
+    text-align: left;
+}
+
+footer#footer div#footerLeft p {
+    height: 20px;
+    font-size: 12px;
+    margin-left: 3px;
+    line-height: 29px;
+    display: inline-block;
+}
+footer#footer div#footerLeft p:hover {
+    border-bottom: 1px solid#000;
+}
+footer#footer div#footerLeft img {
+    width: 50px;
+}
+footer#footer div#footerRight {
+    margin-right: 35px;
+}
+footer#footer div#footerRight a{
+    margin: 0 11px;
+}
+/* div#footerArea 완료 */
+/* footer영역 완료 */
+
+ul#mainMenu>li.mainLi:nth-child(1){
+    border-bottom: 2px solid#000;
+}
+li.mainLi:nth-child(1) li.subLi:nth-child(1) ul.subMenu2 li:nth-child(1) a{
+    border-bottom: 2px solid#7f7f7f;
+}
+/* main#main 시작 */
+body {
+    overflow-y: scroll;
+    background-color: #fafafa;
+    display: block;
+}
+#kakaoWrap {
+    min-width: 1120px;
+    height: auto;
+}
+#kakaoContents {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+#kakaoFrame {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+#MainWrap {
+    height: 100%;
+    position: relative;
+}
+
+
+/* kakaoContents 01 시작 */
+div.kakaoContent_01 {
+    height: 530px;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+}
+div.kakaoTest_01 {
+    position: absolute;
+    text-align: center;
+    top: 235px;
+    left: 50%;
+    margin-left: -290px;
+}
+div.kakaoTest_01 h3 {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+div.kakaoTest_01 p {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+
+/* kakaoContents 01 완료 */
+
+/* kakaoContents 02 시작 */
+div.kakaoContent_02 {
+    height: 100%;
+    position: relative;
+}
+div#slide {
+    overflow: hidden;
+    position: relative;
+    height: 455px;
+}
+
+div#shuttleFrame {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 455px;
+    overflow: hidden;
+}
+
+#shuttleFrame div {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 455px;
+    overflow: hidden;
+}
+#slide img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    margin: -35% 0 0 -55%;
+}
+/* kakaoContents 02 완료 */
+
+/* DayWrap 시작 */
+.dayWrap {
+    height: 2300px;
+    position: relative;
+    background-color: #fff;
+    color: #000;
+}
+.dayWrap table {
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    left: 50%;
+    margin-left: -330px;
+    text-align: left;
+    line-height: 40px;
+}
+.dayWrap table td:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+.dayWrap table td:nth-child(2) {
+    padding: 0 24px;
+}
+.dayWrap table td:not(:first-child) {
+    color: #888888;
+}
+/* DayWrap 완료 */
+
+/* kakaoContent_03 시작 */
+div.kakaoContent_03 {
+    height: 100%;
+    position: relative;
+}
+div.kakaoTest_03 {
+    height: 460px;
+    top: 100px;
+    text-align: center;
+    position: relative;
+}
+div.kakaoTest_03 h4 {
+    font-size: 30px;
+    font-weight: 200;
+}
+div.kakaoTest_03 p {
+    margin:0 50%;
+    margin-top: 30px;
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    text-align: center;
+    width: 60px;
+    border-bottom: 1px solid#000;
+}
+/* Video 시작 */
+.kakao_Video {
+    width: 780px;
+    height: 550px;
+    border: 2px solid #08f;
+
+    margin: 0 auto;
+
+    overflow: hidden; 
+
+    position: relative;
+}
+#VideoFrame {
+    overflow: hidden;
+    position: relative;
+    height: 449px;
+    width: 966px;
+    margin: 0 auto;
+    background-color: #fafafa;
+    /* display: inline-block !important; */
+    display: flex;
+}
+#VideoFrame a {
+    position: relative;
+}
+#VideoFrame img {
+    width: 300px;
+    height: 175px;
+}
+#slide a span {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border: 4px solid #aaa;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* 화살표 시작  */
+div.kakao_Video>div.kakaoArrow {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all .4s;
+    user-select: none;
+}
+.kakao_Video>div#leftArrow {
+    left: 20px;
+}
+.kakao_Video>div#rightArrow {
+    right: 20px;
+}
+.kakao_Video>div.slideArrow:active {
+    color: rgba(204, 204, 204, 0.65);
+}
+.kakao_Video:hover>.slideArrow {
+    color: #f00;
+}
+/* 화살표 끝  */
+
+/* 인디케이터 시작 div#indicatorArea */
+div#indicatorArea {
+    padding: 10px;
+    /* border: 2px solid #f80; */
+
+    justify-content: center;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+#indicatorArea>a {
+    width: 16px;
+    height: 16px;
+    /* border: 1px solid #000; */
+    border-radius: 50%;
+    margin: 0 6px;
+    background-color: #eaeaea;
+
+}
+/* 인디케이터 끝 div#indicatorArea */
+/* Video 완료 */
+/* kakaoContent_03 완료 */
+
+/* kakaoContent_04 시작 */
+div.kakaoContent_04 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../images/Home/브랜드/img_brand_bi.png);
+    background-repeat: no-repeat;
+    background-size: 470px;
+    background-position-x: 50%;
+    background-position-y: 140px;
+    background-color: #ffffff;
+}
+div.kakaoTest_04 {
+    height: 460px;
+    top: 100px;
+    text-align: center;
+    position: relative;
+}
+div.kakaoTest_04 h4 {
+    font-size: 30px;
+    font-weight: 200;
+}
+div.kakaoTest_04 p {
+    margin:0 50%;
+    margin-top: 30px;
+    position: absolute;
+    left: -30px;
+    top: 25px;
+    text-align: center;
+    width: 60px;
+    border-bottom: 1px solid#000;
+}
+div.kakaoSub_04 {
+    width: 1080px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    border-bottom: 1px solid#e1e1e1;
+}
+div.kakaoSub_04 h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+div.kakaoSub_04 p {
+    font-size: 13px;
+    margin-top: 20px;
+}
+div.file_Down {
+    width: 1080px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 218px;
+}
+.file_Down li {
+    width: 300px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    margin: 50px auto;
+    background-color: #fafafa;
+    border: 1px solid#dcdcdc;
+}
+.file_Down a:hover {
+    border-bottom: 1px solid#000;
+}
+/* kakaoContent_04 완료*/

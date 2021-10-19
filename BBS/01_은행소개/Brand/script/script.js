@@ -28,36 +28,27 @@ $(function(){
 
     // });
 
-
-    
-$('.myslider').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
+  
 });
 
 
 
-  });
+$(function () {
 
-  
+  setInterval(fnSlide, 2500);
+
+  function fnSlide() {
+      /* 전환형 슬라이드 쇼 시작 */
+      $("#shuttleFrame div:first-child").fadeOut(
+          1000,
+          function () {
+              $("#shuttleFrame div:first-child")
+                  .insertAfter("#shuttleFrame div:last-child");
+          }
+      );
+
+      $("#shuttleFrame div:nth-child(4)").fadeIn(1500);
+      /* 전환형 슬라이드 쇼 끝 */
+  }
+
+});

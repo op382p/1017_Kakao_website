@@ -91,7 +91,6 @@ li.submit a{
 #gnb ul.subMenu {
     width: 8000px;
     text-align: center;
-    /* border: 1px solid #000; */
     position: absolute;
     z-index: 95;
     display: flex;
@@ -106,7 +105,6 @@ li.submit a{
     right: -5520px;
 }
 #gnb ul#mainMenu :nth-child(1) ul.subMenu li.subLi {
-    /* text-align: center; */
     margin: 0 53px;
 }
 #gnb ul#mainMenu :nth-child(2) ul.subMenu   {
@@ -146,7 +144,7 @@ ul#mainMenu>li.mainLi:hover{
 /* div#subMenuBG 시작 */
 #subMenuBG {
     width: 100%;
-    height: 450px;
+    height: 400px;
     margin: 0 auto;
     position: fixed;
     left: 50%;
@@ -159,7 +157,6 @@ ul#mainMenu>li.mainLi:hover{
 /* footer영역 시작 */
 footer#footer {
     min-width: 100%;
-    /* height: 140px; */
     text-align: center;
     position: relative;
     width: 1080px;
@@ -212,8 +209,8 @@ footer#footer div#copyArea p {
 /* div#footerArea 시작 */
 div#footerArea {
     justify-content: space-between;
-    height: 55px;
-    line-height: 55px;
+    height: 80px;
+    line-height: 80px;
     text-align: left;
 }
 
@@ -294,45 +291,45 @@ div.kakaoText_01>h3 {
     top: 175px;
     left: 90px;
     font-weight: bold;
-    font-size: 49px;
+    font-size: 48.5px;
     line-height: 1.4;
     color: black;
     -webkit-font-smoothing: antialiased;
 }
 div.kakaoText_01>p {
+    font-size: 16px;
+    line-height: 1.95;
     position: absolute;
     top: 330px;
     left: 92px;
-    font-size: 16px;
-    line-height: 1.95;
     color: black;
-    opacity: .7;
+    opacity: .75;
 }
 div.kakaoText_01>a {
     position: absolute;
     top: 410px;
-    left: 92px;
+    left: 90px;
     font-size: 16px;
     color: black;
     font-weight: bold;
     text-decoration: underline;
 }
 ul.app_Link {
+    margin-left: 75px;
     overflow: hidden;
     position: absolute;
-    top: 490px;
-    margin-left: 85px;
+    top: 485px;
 }
 ul.app_Link li {
-    float: left;
-    width: 178px;
+    width: 180px;
     height: 60px;
+    float: left;
     padding: 0 6px;
     margin-left: 10px;
 }
 ul.app_Link a {
     display: block;
-    width: 178px;
+    width: 170px;
     height: 56px;
     border: 1px solid rgba(255,255,255,.3);
     border-radius: 12px;
@@ -342,7 +339,12 @@ ul.app_Link a {
     color: #333;
     background: #fff;
     text-align: center;
-    -webkit-font-smoothing: antialiased;
+    
+    /* -webkit-font-smoothing: antialiased; */
+}
+
+ul.app_Link img {
+    margin-right: 10px;
 }
 div.content_line01 {
     width: 100%;
@@ -412,7 +414,7 @@ div.kakaoSub_02 img {
 div.content_line02 {
     width: 100%;
     height: 32px;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 /* kakaoContents 02 완료 */
 /* kakaoContents 03 시작 */
@@ -484,7 +486,7 @@ div.kakaoimg_03 img {
 div.content_line03 {
     width: 100%;
     height: 32px;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 /* kakaoContents 03 완료 */
 /* kakaoContents 04 시작 */
@@ -548,7 +550,7 @@ div.kakaoSub_04 img {
 div.content_line04 {
     width: 100%;
     height: 32px;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 /* kakaoContents 04 완료 */
 /* kakaoContents 05 시작 */
@@ -620,7 +622,7 @@ div.kakaoimg_05 img {
 div.content_line05 {
     width: 100%;
     height: 32px;
-    background-color: #fff;
+    background-color: #fafafa;
 }
 /* kakaoContents 05 완료 */
 /* kakaoContents 06 시작 */
@@ -630,6 +632,8 @@ div.kakaoContent_06 {
     position: relative;
     background-color: #fff;
     background-image: url(../images/Home/home_map.png);
+    background-position-x: -150px;
+    background-position-y: 200px;
     background-repeat: no-repeat;
     color: #000;
 }
@@ -684,8 +688,8 @@ div.kakaoimg_06 {
     display: block;
 }
 div.kakaoimg_06 img {
-    width: 409px;
-    height: 700px;
+    width: 408px;
+    height: 715px;
     position: absolute;
     top: 20px;
     left: 50%;
@@ -697,3 +701,162 @@ div.content_line06 {
     background-color: #fff;
 }
 /* kakaoContents 06 완료 */
+
+/* kakaoContents 07 시작 */
+div.kakaoContent_07 {
+    position: relative;
+    height: 1062px;
+    background-color: #fff;
+    background-color: #4ff;
+    color: #333;
+}
+div.kakaoTest_07 {
+    text-align: center;
+    padding-top: 150px;
+}
+div.kakaoTest_07 h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    line-height: 1.35;
+}
+div.kakaoTest_07 p {
+    margin-top: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #666;
+}
+div.kakaoTest_07 img {
+    width: 440px;
+    margin: 142px 0 0 -8px;
+}
+div.kakaoSub_07 {
+    position: absolute;
+    top: 337px;
+    left: 50%;
+    margin-left: -129px;
+}
+div.kakaoSub_07 a {
+    width: 255px;
+    height: 55px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    line-height: 56px;
+    color: #333;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+}
+div.kakaoSub_07 img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+    vertical-align: text-top;
+}
+div.kakaoimg_07 {
+    position: absolute;
+    width:  900px;
+    height: 470px;
+    left: 48%;
+    top: 800px;
+    margin: -330px;
+    border: 5px solid#000;
+}
+div.kakaoimg_07 div#slide {
+    margin: 10px 20px;
+}
+div.kakaoimg_07 div.myslider {
+    width:  450px;
+
+}
+div.kakaoimg_07 div.myslider img {
+    width: 240px;
+    margin-left: 50px;
+    border: 5px solid#08f;
+} 
+/* kakaoContents 07 완료 */
+/* kakaoContents 08 시작 */
+div.kakaoContent_08 {
+    height: 1020px;
+    /* overflow: hidden; */
+    position: relative;
+    /* text-align: center; */
+    background-color: #f6f6f6;
+    color: #000;
+}
+div.kakaoTest_08 {
+    text-align: center;
+    padding-top: 150px;
+}
+div.kakaoTest_08 h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.35;
+    text-align: center;
+}
+div.kakaoTest_08 p {
+    margin:0 50%;
+    margin-top: 30px;
+    position: absolute;
+    left: -60px;
+    text-align: center;
+    width: 100px;
+    border-bottom: 3.5px solid#000;
+}
+div.kakaoTest_08 img {
+    width: 440px;
+    margin: 142px 0 0 -8px;
+}
+div.kakaoSub_08 {
+    position: absolute;
+    top: 715px;
+    left: 50%;
+    margin-top: 30px;
+    margin-left: -460px;
+    display: flex;
+}
+div.kakaoSub_08 div {
+    border-radius: 10px;
+    margin-left: 5px;
+    line-height: 50px;
+    color: #000;
+    text-align: center;
+}
+div.kakaoSub_08 div:nth-child(2) {
+    margin: 0 250px 0 30px;
+}
+div.kakaoSub_08 h2 {
+    font-size: 20px;
+}
+div.kakaoSub_08 p {
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+    line-height: 25px;
+}
+div.kakaoSub_08 img {
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    margin: 5.5px 0 0 8px;
+    vertical-align: text-top;
+}
+div.kakaoimg_08 {
+    display: block;
+}
+div.kakaoimg_08 img {
+    width: 1000px;
+    /* height: 190px; */
+    position: absolute;
+    top: 440px;
+    left: 50%;
+    margin-left: -480px;
+}
+div.content_line08 {
+    width: 100%;
+    height: 32px;
+    background-color: #fff;
+}
+/* kakaoContents 08 완료 */
